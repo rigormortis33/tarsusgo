@@ -41,6 +41,7 @@ const App = () => {
           <div className="home-content">
             <div className="hero-section">
               <h1>🏛️ TarsusGo</h1>
+              <p>Tarsus şehrinin dijital rehberi</p>
               <p>Şehrimizin güzelliklerini keşfedin, ihtiyacınız olan tüm bilgilere kolayca ulaşın</p>
             </div>
             
@@ -194,7 +195,7 @@ const App = () => {
       )}
       
       <footer className="footer">
-        <p>&copy; 2025 TarsusGo</p>
+        <p>&copy; 2025 TarsusGo - Tarsus şehrinin dijital rehberi</p>
         <p>Geliştirildi: Tarsus için ❤️ ile</p>
       </footer>
     </div>

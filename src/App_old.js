@@ -41,6 +41,7 @@ const App = () => {
           <div className="home-content">
             <div className="hero-section">
               <h1>🏛️ TarsusGo</h1>
+              <p>Tarsus şehrinin dijital rehberi</p>
               <p>Şehrimizin güzelliklerini keşfedin, ihtiyacınız olan tüm bilgilere kolayca ulaşın</p>
             </div>
             
@@ -106,6 +107,57 @@ const App = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        );
+      default:
+                </button>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">�️</span>
+                <h3>Topluluk</h3>
+                <p>Mahalle komşularınızla iletişim kurun, yardımlaşın ve sosyalleşin</p>
+                <button 
+                  onClick={() => setActiveTab('community')}
+                  className="feature-button"
+                >
+                  Topluluğa Katıl
+                </button>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">�🏪</span>
+                <h3>İşletmeler</h3>
+                <p>Yerel işletmeler, restoranlar ve hizmet sağlayıcıları</p>
+                <button className="feature-button">Yakında</button>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">🏪</span>
+                <h3>İşletmeler</h3>
+                <p>Yerel işletmeler, restoranlar ve hizmet sağlayıcıları rehberi</p>
+                <button 
+                  onClick={() => setActiveTab('business')}
+                  className="feature-button"
+                >
+                  İşletmeleri Keşfet
+                </button>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">🚌</span>
+                <h3>Ulaşım</h3>
+                <p>Otobüs saatleri, güzergahlar ve ulaşım bilgileri</p>
+                <button className="feature-button">Yakında</button>
+              </div>
+              
+              <div className="feature-card">
+                <span className="feature-icon">🏛️</span>
+                <h3>Resmi Kurumlar</h3>
+                <p>Belediye, kaymakamlık ve diğer resmi kurumlar</p>
+                <button className="feature-button">Yakında</button>
               </div>
             </div>
           </div>
@@ -194,7 +246,7 @@ const App = () => {
       )}
       
       <footer className="footer">
-        <p>&copy; 2025 TarsusGo</p>
+        <p>&copy; 2025 TarsusGo - Tarsus şehrinin dijital rehberi</p>
         <p>Geliştirildi: Tarsus için ❤️ ile</p>
       </footer>
     </div>

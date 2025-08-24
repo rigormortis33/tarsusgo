@@ -1,2 +1,3 @@
 // Sunucu başlangıç dosyası
+const db = require('./models/db');
 // ...existing code...
