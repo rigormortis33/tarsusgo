@@ -1,0 +1,11 @@
+{
+  "name": "tarsusgo",
+  "version": "1.0.0",
+  "description": "TarsusGo web uygulaması",
+  "main": "src/App.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
