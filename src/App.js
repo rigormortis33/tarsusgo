@@ -41,7 +41,6 @@ const App = () => {
           <div className="home-content">
             <div className="hero-section">
               <h1>🏛️ TarsusGo</h1>
-              <p>Şehrimizin güzelliklerini keşfedin, ihtiyacınız olan tüm bilgilere kolayca ulaşın</p>
             </div>
             
             <div className="progress-container">
